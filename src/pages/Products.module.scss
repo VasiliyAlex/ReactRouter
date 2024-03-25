@@ -1,0 +1,44 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 60px;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    width: 18%;
+    background-color: rgb(186, 145, 96);
+    
+    
+    &__img{
+        height: 180px;
+    }
+    &__title{
+        color: brown;
+        height: 100px;
+    }
+    &__price{
+        color: brown;
+        height: 30px;
+    }
+    }
+    
+    .loading{
+        background-color: bisque;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 60px;
+    }
